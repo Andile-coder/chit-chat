@@ -1,0 +1,41 @@
+.createPost_container {
+  height: 30vh;
+  width: 30%;
+  margin: 0 5px 10px 5px;
+  background-color: white;
+  &_header {
+    background-color: #26a69a;
+    height: 20.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  &_form {
+    form {
+      padding-left: 5px;
+      .form_textarea {
+        height: 120px;
+        padding-left: 5px;
+        textarea {
+          border: none;
+          width: 90%;
+          height: 90%;
+          resize: none;
+        }
+        textarea:focus-visible {
+          outline: none;
+        }
+      }
+    }
+
+    .post_content {
+      display: flex;
+      button {
+        background-color: rgb(7, 97, 12);
+        height: 35px;
+        border: none;
+      }
+    }
+  }
+}

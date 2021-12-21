@@ -1,0 +1,79 @@
+.header {
+  padding-left: 25%;
+  overflow: hidden;
+  width: 75%;
+  background-color: white;
+  height: 50px;
+  border: 1px solid #26a69a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_mail:hover {
+  background: #abeee7;
+}
+
+.header_mail {
+  height: 100%;
+  width: 50px;
+}
+
+.header_user:hover {
+  background: #abeee7;
+}
+
+.header_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+}
+
+.header_user img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.header_user span a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header_user span a p {
+  margin-top: 0.8rem;
+}
+
+.header_search:hover {
+  background: #c8f3ef;
+  border: 1px white;
+}
+
+.header_search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_search input {
+  margin-top: 0.8rem;
+  border: none;
+  background: transparent;
+}
+
+.header_message:hover {
+  background: #c8f3ef;
+}
+
+.header_message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 0;
+  width: 4rem;
+}
+/*# sourceMappingURL=header.css.map */

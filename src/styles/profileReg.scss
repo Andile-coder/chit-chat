@@ -1,0 +1,107 @@
+.register_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background: linear-gradient(#141e30, #243b55);
+  &_intro {
+    background: rgb(21, 255, 0);
+  }
+  &_form {
+    background: rgba(0, 0, 0, 5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 6);
+    border-radius: 10px;
+    div:nth-child(3) {
+      input {
+        padding: 20px 0 0 0;
+      }
+    }
+    h2 {
+      margin: 0 0 30px;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+    }
+    .user-box {
+      position: relative;
+      input {
+        width: 100%;
+        padding: 10px 0;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+        color: #fff;
+      }
+      &_gender {
+        display: flex;
+        color: #fff;
+        padding: 5px 0 30px 0;
+        label {
+          padding-right: 20px;
+        }
+      }
+      label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        font-size: 16px;
+        pointer-events: none;
+        transition: 0.5s;
+      }
+      textarea {
+        width: 100%;
+        height: 80%;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        overflow: visible;
+        resize: none;
+      }
+      input:focus ~ label,
+      input:valid ~ label,
+      textarea:focus ~ label {
+        top: -20px;
+        left: 0;
+        color: #03e9f4;
+        font-size: 12px;
+      }
+    }
+    button {
+      position: relative;
+      display: inline-block;
+      padding: 10px;
+      color: #03e9f4;
+      font-size: 16px;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: 0.5s;
+      margin-top: 40px;
+      letter-spacing: 4px;
+      background-color: transparent;
+      &:hover {
+        background: #466768;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #497679, 0 0 25px #0f191a, 0 0 50px #03e9f4,
+          0 0 100px #2b4344;
+      }
+      span {
+        position: absolute;
+        display: block;
+      }
+    }
+  }
+}
+@keyframes btn-anim3 {
+}

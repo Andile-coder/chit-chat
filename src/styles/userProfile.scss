@@ -1,0 +1,33 @@
+.main {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(#141e30, #243b55);
+  .userProfile {
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 6);
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
+    border-radius: 0.5rem;
+    padding: 10px;
+    .profile_photo {
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10rem;
+      }
+    }
+    .cover_photo {
+      img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}

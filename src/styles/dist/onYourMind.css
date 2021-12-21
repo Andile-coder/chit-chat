@@ -1,0 +1,52 @@
+.createPost_container {
+  height: 30vh;
+  width: 30%;
+  margin: 0 5px 10px 5px;
+  background-color: white;
+}
+
+.createPost_container_header {
+  background-color: #26a69a;
+  height: 20.5%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+
+.createPost_container_form form {
+  padding-left: 5px;
+}
+
+.createPost_container_form form .form_textarea {
+  height: 120px;
+  padding-left: 5px;
+}
+
+.createPost_container_form form .form_textarea textarea {
+  border: none;
+  width: 90%;
+  height: 90%;
+  resize: none;
+}
+
+.createPost_container_form form .form_textarea textarea:focus-visible {
+  outline: none;
+}
+
+.createPost_container_form .post_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.createPost_container_form .post_content button {
+  background-color: #07610c;
+  height: 35px;
+  border: none;
+}
+/*# sourceMappingURL=onYourMind.css.map */

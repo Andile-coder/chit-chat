@@ -1,0 +1,51 @@
+.post {
+  background: black;
+  width: 500px;
+  padding: 0 20px 0 20px;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px black;
+          box-shadow: 0 15px 25px black;
+}
+
+.post_profile_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post_profile_header img {
+  width: 100px;
+}
+
+.post_profile_body img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  padding-bottom: 7px;
+}
+
+.post_comment_section textarea {
+  color: #fff;
+  width: 100%;
+  resize: none;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.post_comment_section_comments_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  list-style: none;
+}
+/*# sourceMappingURL=post.css.map */

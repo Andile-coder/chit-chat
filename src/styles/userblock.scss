@@ -1,0 +1,39 @@
+.userBlock_container {
+  margin: 10px 0 10px 0;
+  width: 100%;
+  border: 1px solid #dfdada;
+  background-color: white;
+  .userBlock_cover {
+    img {
+      width: 100%;
+    }
+  }
+  .userBlock_profile {
+    display: flex;
+    margin-top: -60px;
+    padding-left: 20px;
+    img {
+      width: 7rem;
+      height: 7rem;
+    }
+    &-text {
+      padding-top: 30px;
+      &-userName {
+        padding-left: 10px;
+      }
+      &-nav {
+        display: flex;
+
+        padding-top: 8px;
+        &-box {
+          border-right: 1px solid #dfdada;
+          width: 150px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,197 @@
+* {
+  margin: 0%;
+
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+    background: #ededed;
+    height: 100vh;
+    &_info {
+      padding: 0px 0 10px 5px;
+      position: fixed;
+      width: 250px;
+      height: 100vh;
+      &_items {
+        display: flex;
+        flex-flow: column wrap;
+        &_profile {
+          display: flex;
+          img {
+            width: 4rem;
+            height: 4rem;
+          }
+          span {
+            margin-top: 1.2rem;
+            a {
+              text-decoration: none;
+              color: #000;
+            }
+          }
+        }
+        &_marketplace,
+        &_groups,
+        &_watch,
+        &_memories {
+          span {
+            a {
+              text-decoration: none;
+              color: #000;
+              display: flex;
+              p {
+                margin-top: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    &_content::-webkit-scrollbar {
+      width: 0 !important;
+    }
+    &_content {
+      overflow: -moz-scrollbars-none;
+    }
+    &_content {
+      form {
+        width: 100%;
+        margin-right: 25px;
+        margin-top: 10px;
+        input {
+          height: 2rem;
+          width: 100%;
+          border-radius: 30px;
+          background: #ededed;
+        }
+      }
+      margin-left: 300px;
+      width: 1000px;
+      border-radius: 7px;
+      overflow-y: scroll;
+
+      padding-left: 10px;
+      &_posts {
+        img {
+          width: 4rem;
+          height: 4rem;
+        }
+
+        width: 100%;
+
+        &_content {
+          padding-bottom: 10px;
+          .content_createpost {
+            box-shadow: 0 15px 25px white;
+            padding: 10px 0 10px 5px;
+            background: white;
+            border-radius: 10px;
+            display: flex;
+            flex-flow: column wrap;
+            margin-top: 5px;
+            .write-post {
+              display: flex;
+            }
+            .createpost_attachments {
+              display: flex;
+              justify-content: space-around;
+              margin-top: 1rem;
+              .live_video,
+              .photo-video,
+              .feeling-activity {
+                span {
+                  a {
+                    text-decoration: none;
+                    color: #000;
+                    display: flex;
+                    p {
+                      margin-top: 0.5rem;
+                    }
+                  }
+                }
+              }
+            }
+            form {
+              width: 100%;
+              margin-right: 25px;
+              margin-top: 10px;
+              input {
+                height: 2rem;
+                width: 100%;
+                border-radius: 30px;
+                background: #ededed;
+              }
+            }
+          }
+        }
+        &_post {
+          box-shadow: 0 15px 25px rgba(247, 242, 242, 0.877);
+          margin-top: 10px;
+          background: white;
+          padding: 10px 0 10px 5px;
+          border-radius: 10px;
+          .post_header {
+            display: flex;
+            span {
+              margin-top: 1.2rem;
+              a {
+                text-decoration: none;
+                color: #000;
+              }
+            }
+          }
+        }
+        .post_like-comment {
+          display: flex;
+          margin: 20px 0 20px 0;
+          button {
+            font-size: 16px;
+            margin-left: 100px;
+          }
+        }
+        .post_commentList {
+          display: flex;
+          flex-flow: column wrap;
+          .comment {
+            display: flex;
+            span {
+              margin-top: 1.2rem;
+              p {
+                width: 100%;
+                background: #ededed;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // contacts
+    &_contacts {
+      img {
+        width: 4rem;
+        height: 4rem;
+      }
+      margin-left: 50px;
+      width: 400px;
+      float: right;
+      border: 1px solid black;
+      &_items {
+        display: flex;
+        flex-flow: column wrap;
+        &_profile,
+        &_marketplace,
+        &_groups,
+        &_watch,
+        &_memories {
+          display: flex;
+          span {
+            margin-top: 1.2rem;
+            a {
+              text-decoration: none;
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}

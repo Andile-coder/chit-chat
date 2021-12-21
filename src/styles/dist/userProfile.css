@@ -1,0 +1,36 @@
+.main {
+  margin: 0;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#141e30), to(#243b55));
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.main .userProfile {
+  background: transparent;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px black;
+          box-shadow: 0 15px 25px black;
+  border-radius: 10px;
+  margin: auto;
+  width: 70%;
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+
+.main .userProfile .profile_photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+}
+
+.main .userProfile .cover_photo img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+}
+/*# sourceMappingURL=userProfile.css.map */

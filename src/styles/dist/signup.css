@@ -1,0 +1,109 @@
+.signup_container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(#141e30), to(#243b55));
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.signup_container_intro {
+  background: #15ff00;
+}
+
+.signup_container_form {
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px black;
+          box-shadow: 0 15px 25px black;
+  border-radius: 10px;
+}
+
+.signup_container_form h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.signup_container_form .user-box {
+  position: relative;
+}
+
+.signup_container_form .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+
+.signup_container_form .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 16px;
+  pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.signup_container_form .user-box input:focus ~ label,
+.signup_container_form .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.signup_container_form button {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-transform: uppercase;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  background-color: transparent;
+}
+
+.signup_container_form button:hover {
+  background: #466768;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #497679, 0 0 25px #0f191a, 0 0 50px #03e9f4, 0 0 100px #2b4344;
+          box-shadow: 0 0 5px #497679, 0 0 25px #0f191a, 0 0 50px #03e9f4, 0 0 100px #2b4344;
+}
+
+.signup_container_form button span {
+  position: absolute;
+  display: block;
+}
+
+@-webkit-keyframes btn-anim3 {}
+
+@keyframes btn-anim3 {}
+/*# sourceMappingURL=signup.css.map */

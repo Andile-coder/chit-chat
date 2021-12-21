@@ -1,0 +1,52 @@
+.userBlock_container {
+  margin: 10px 0 10px 0;
+  width: 100%;
+  border: 1px solid #dfdada;
+  background-color: white;
+}
+
+.userBlock_container .userBlock_cover img {
+  width: 100%;
+}
+
+.userBlock_container .userBlock_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -60px;
+  padding-left: 20px;
+}
+
+.userBlock_container .userBlock_profile img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.userBlock_container .userBlock_profile-text {
+  padding-top: 30px;
+}
+
+.userBlock_container .userBlock_profile-text-userName {
+  padding-left: 10px;
+}
+
+.userBlock_container .userBlock_profile-text-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 8px;
+}
+
+.userBlock_container .userBlock_profile-text-nav-box {
+  border-right: 1px solid #dfdada;
+  width: 150px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+/*# sourceMappingURL=userblock.css.map */

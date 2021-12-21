@@ -1,0 +1,265 @@
+* {
+  margin: 0%;
+}
+
+* .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  background: #ededed;
+  height: 100vh;
+}
+
+* .container_info {
+  padding: 0px 0 10px 5px;
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+}
+
+* .container_info_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+* .container_info_items_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .container_info_items_profile img {
+  width: 4rem;
+  height: 4rem;
+}
+
+* .container_info_items_profile span {
+  margin-top: 1.2rem;
+}
+
+* .container_info_items_profile span a {
+  text-decoration: none;
+  color: #000;
+}
+
+* .container_info_items_marketplace span a, * .container_info_items_groups span a, * .container_info_items_watch span a, * .container_info_items_memories span a {
+  text-decoration: none;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .container_info_items_marketplace span a p, * .container_info_items_groups span a p, * .container_info_items_watch span a p, * .container_info_items_memories span a p {
+  margin-top: 0.5rem;
+}
+
+* .container_content::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+* .container_content {
+  overflow: -moz-scrollbars-none;
+}
+
+* .container_content {
+  margin-left: 300px;
+  width: 1000px;
+  border-radius: 7px;
+  overflow-y: scroll;
+  padding-left: 10px;
+}
+
+* .container_content form {
+  width: 100%;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+* .container_content form input {
+  height: 2rem;
+  width: 100%;
+  border-radius: 30px;
+  background: #ededed;
+}
+
+* .container_content_posts {
+  width: 100%;
+}
+
+* .container_content_posts img {
+  width: 4rem;
+  height: 4rem;
+}
+
+* .container_content_posts_content {
+  padding-bottom: 10px;
+}
+
+* .container_content_posts_content .content_createpost {
+  -webkit-box-shadow: 0 15px 25px white;
+          box-shadow: 0 15px 25px white;
+  padding: 10px 0 10px 5px;
+  background: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  margin-top: 5px;
+}
+
+* .container_content_posts_content .content_createpost .write-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .container_content_posts_content .content_createpost .createpost_attachments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1rem;
+}
+
+* .container_content_posts_content .content_createpost .createpost_attachments .live_video span a,
+* .container_content_posts_content .content_createpost .createpost_attachments .photo-video span a,
+* .container_content_posts_content .content_createpost .createpost_attachments .feeling-activity span a {
+  text-decoration: none;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .container_content_posts_content .content_createpost .createpost_attachments .live_video span a p,
+* .container_content_posts_content .content_createpost .createpost_attachments .photo-video span a p,
+* .container_content_posts_content .content_createpost .createpost_attachments .feeling-activity span a p {
+  margin-top: 0.5rem;
+}
+
+* .container_content_posts_content .content_createpost form {
+  width: 100%;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+* .container_content_posts_content .content_createpost form input {
+  height: 2rem;
+  width: 100%;
+  border-radius: 30px;
+  background: #ededed;
+}
+
+* .container_content_posts_post {
+  -webkit-box-shadow: 0 15px 25px rgba(247, 242, 242, 0.877);
+          box-shadow: 0 15px 25px rgba(247, 242, 242, 0.877);
+  margin-top: 10px;
+  background: white;
+  padding: 10px 0 10px 5px;
+  border-radius: 10px;
+}
+
+* .container_content_posts_post .post_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .container_content_posts_post .post_header span {
+  margin-top: 1.2rem;
+}
+
+* .container_content_posts_post .post_header span a {
+  text-decoration: none;
+  color: #000;
+}
+
+* .container_content_posts .post_like-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0 20px 0;
+}
+
+* .container_content_posts .post_like-comment button {
+  font-size: 16px;
+  margin-left: 100px;
+}
+
+* .container_content_posts .post_commentList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+* .container_content_posts .post_commentList .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .container_content_posts .post_commentList .comment span {
+  margin-top: 1.2rem;
+}
+
+* .container_content_posts .post_commentList .comment span p {
+  width: 100%;
+  background: #ededed;
+}
+
+* .container_contacts {
+  margin-left: 50px;
+  width: 400px;
+  float: right;
+  border: 1px solid black;
+}
+
+* .container_contacts img {
+  width: 4rem;
+  height: 4rem;
+}
+
+* .container_contacts_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+* .container_contacts_items_profile, * .container_contacts_items_marketplace, * .container_contacts_items_groups, * .container_contacts_items_watch, * .container_contacts_items_memories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .container_contacts_items_profile span, * .container_contacts_items_marketplace span, * .container_contacts_items_groups span, * .container_contacts_items_watch span, * .container_contacts_items_memories span {
+  margin-top: 1.2rem;
+}
+
+* .container_contacts_items_profile span a, * .container_contacts_items_marketplace span a, * .container_contacts_items_groups span a, * .container_contacts_items_watch span a, * .container_contacts_items_memories span a {
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=home.css.map */
